@@ -1,0 +1,30 @@
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+/*#headline{*/
+    /*width: 500px;*/
+    /*margin:auto;*/
+    /*padding-top: 30px;*/
+
+/*}*/
+
+/*#somework{*/
+    /*width:300px;*/
+    /*margin: auto;*/
+    /*padding-top: 30px;*/
+/*}*/
+
+#port-content{
+
+    margin: 20px;
+}
+
+/*#footer{*/
+    /*background: darkgray;*/
+/*}*/
+
+.well{
+    margin-bottom: 0px;
+}
