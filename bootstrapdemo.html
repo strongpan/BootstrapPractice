@@ -9,10 +9,48 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <script src="js/jquery-1.12.2.js"></script>
-    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/bootstrap.js"></script>
 
 </head>
 <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <!--<img src="img/head.jpg" class="img-circle" width="30px" alt=""><span> </span>-->
+            <a class="navbar-brand" href="">PlusEasy Website</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="">Home</a></li>
+
+            <li>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                    Product<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu"><!--role="menu"-->
+                    <li><a href="">Hardware</a></li>
+                    <li><a href="">Software</a></li>
+                    <li><a href="">Solution</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">About Us</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href=""><span class="glyphicon glyphicon-user"></span> Login</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-search"></span> Search</a></li>
+        </ul>
+        <!--<ul class="nav navbar navbar-right">-->
+            <!--<li><a class="glyphicon glyphicon-user" href=""><span> </span>Login</a></li>-->
+            <!--<li><a class="glyphicon glyphicon-search" href=""><span> </span>Search</a></li>-->
+        <!--</ul>-->
+
+
+    </div>
+</nav>
 
 <div class="jumbotron">
     <h1>headline ...outside jumbotron </h1>
@@ -21,6 +59,105 @@
 
 
 <div class="container" style="margin-bottom: 300px">
+
+
+    <blockquote>
+        day 2
+    </blockquote>
+
+
+    <ul class="nav nav-pills nav-justified">
+        <li><a href=""><img class="img-circle " src="img/head.jpg" alt="" width="30px"> <span> </span> Home</a></li>
+        <li class="active"><a href="">Downlaod</a></li>
+        <li>
+            <a href="" class="btn dropdown-toggle" data-toggle="dropdown">
+                Forum <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header"> HTML/CSS Tutorial</li>
+                <li><a class="glyphicon glyphicon-apple">HTML/CSS</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"> JAVA Guidance</li>
+                <li><a class="glyphicon glyphicon-baby-formula" href="">JAVA</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"> CPP Reference</li>
+                <li><a class="glyphicon glyphicon-asterisk" href="">CPP</a></li>
+            </ul>
+        </li>
+        <li class="disabled"><a href="">About</a></li>
+    </ul>
+
+    <br>
+
+    <div style="border: solid 1px; padding: 10px; padding-bottom: 30px">
+
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#menu1">Menu 1</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu2">Menu 2</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#menu3">Menu 3</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="menu1" class="tab-pane active">
+                <h1> Tab/ Menu 1 </h1>
+                <p>Tab/ Menu 1 Content ......</p>
+            </div>
+
+            <div id="menu2" class="tab-pane">
+                <h1> Tab/ Menu 2 </h1>
+                <p>Tab/ Menu 2 Content ......</p>
+            </div>
+
+            <div id="menu3" class="tab-pane">
+                <h1> Tab/ Menu 3 </h1>
+                <p>Tab/ Menu 3 Content ......</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div style="border: solid 1px; padding: 10px; padding-bottom: 30px">
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="tab" href="#pill1"> Menu 1</a></li>
+            <li><a data-toggle="tab" href="#pill2"> Menu 2</a></li>
+            <li><a data-toggle="tab" href="#pill3"> Menu 3</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="pill1">
+                <h1>Menu 1</h1>
+                <p>Menu 1 content ...</p>
+            </div>
+            <div class="tab-pane" id="pill2">
+                <h1>Menu 2</h1>
+                <p>Menu 2 content ...</p>
+            </div>
+            <div class="tab-pane" id="pill3">
+                <h1>Menu 3</h1>
+                <p>Menu 3 content ...</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <blockquote>
+        day 1
+    </blockquote>
 
     <div class="jumbotron">
         <h1>headline ...inside jumbotron </h1>
@@ -384,12 +521,45 @@
 
     <!--<button class="btn btn-block btn-info" data-toggle="collapse" data-target="#demo">click...</button>-->
     <!--<div id="btn-demo" class="collapse in">-->
-        <!--btn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-info-->
+    <!--btn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-infobtn btn-block btn-info-->
     <!--</div>-->
 
     <a class="btn btn-warning" data-toggle="collapse" href="#demo">click too...</a>
     <div id="demo" class="collapse in"><!-- try not to use in -->
         this is a test line which can appear / disappear as you click the button or a tag
+    </div>
+
+    <div id="accordion" class="panel-group">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#panel1" data-parent="#accordion">panel 1...</a>
+            </div>
+            <div id="panel1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    panel body 1...
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#panel2" data-parent="#accordion">panel 2...</a>
+            </div>
+            <div id="panel2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    panel body 2...
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <a data-toggle="collapse" href="#panel3" data-parent="#accordion">panel 3...</a>
+            </div>
+            <div id="panel3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    panel body 3...
+                </div>
+            </div>
+        </div>
     </div>
 
 </div>
